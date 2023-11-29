@@ -1,0 +1,173 @@
+*{
+    border: 0;
+    padding: 0;
+}
+
+body{
+    text-align: center;
+    font-family: 'Happy Monkey', cursive;
+    background-color: #2a9d8f;
+    color: #fff;
+}
+
+.header{
+   
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+h1, h2, h3, h4, p{
+    text-shadow:0px 0px 9px #283618;
+}
+
+#bday-age{
+    background: #283618;
+    padding: 5px 10px;
+    border-radius: 5px;
+    margin: 5px 0 10px;
+    
+}
+
+#bday-date{
+    margin: 0;
+    background: #283618;
+    padding: 5px 10px;
+    border-radius: 5px;
+}
+
+#ps-img{
+    width: 150px;
+    height: 150px;
+    object-fit: cover;
+    object-position:top;
+    border-radius: 50%;
+    border: 6px solid #283618;
+}
+
+#ps-img:hover{
+    width: 180px;
+    height: 180px;
+    border: 6px double black;
+
+}
+
+.gift-img1{
+    width: 400px;
+    height: 400px;
+    background-image: url("blue.webp");
+    background-repeat: no-repeat;
+    background-size: cover;
+    border: 6px solid lightblue;
+    border-radius: 10px;
+    margin: 0 auto;
+  
+}
+
+.gift-img1:hover{
+  
+    background-image: url("minion.webp");
+    border: 2px solid black;
+   
+}
+
+.gift-img2{
+    width: 400px;
+    height: 400px;
+    background-image: url("gift.webp");
+    background-repeat: no-repeat;
+    background-size: cover;
+    border: 6px solid whitesmoke;
+    border-radius: 10px;
+    margin: 0 auto;
+
+}
+
+.gift-img2:hover{
+  
+    background-image: url("kiss.webp");
+    border: 2px solid black;
+   
+   
+}
+
+.gift-img3{
+    width: 400px;
+    height: 400px;
+    background-image: url("gift3.webp");
+    background-repeat: no-repeat;
+    background-size: cover;
+    border: 6px solid whitesmoke;
+    border-radius: 10px;
+    margin: 0 auto;
+
+}
+
+.gift-img3:hover{
+  
+    background-image: url("king.webp");
+    border: 2px solid black;
+   
+   
+}
+
+.gift-img4{
+    width: 400px;
+    height: 400px;
+    background-image: url("you.webp");
+    background-repeat: no-repeat;
+    background-size: cover;
+    border: 6px solid whitesmoke;
+    border-radius: 10px;
+    margin: 0 auto;
+
+}
+
+.gift-img4:hover{
+  
+    background-image: url("beach.png");
+    border: 2px solid black;
+   
+   
+}
+
+.gift-img5{
+    width: 400px;
+    height: 200px;
+    background-image: url("clap.webp");
+    background-repeat: no-repeat;
+    background-size: cover;
+    border: 6px solid whitesmoke;
+    border-radius: 10px;
+    margin: 0 auto;
+
+}
+
+.gift-img5:hover{
+  
+    background-image: url("cling.webp");
+    border: 2px solid black;
+   
+}
+
+.gift-section {
+    margin-top: 50px;
+}
+
+.gift-title {
+    margin-bottom: 10px;
+}
+
+.gift-hint {
+    margin-top: 0;
+}
+
+.hover:hover{
+    background-color: black;
+    border-radius: 50%;
+}
+span:hover{
+    color: black;
+    text-decoration: bold;
+
+}
